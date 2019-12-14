@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoadAndParseJSONExercise/ViewController.swift"
+            timestampString = "582181026.8845741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoadAndParseJSONExercise/ViewController.swift"
+            timestampString = "582181026.89984"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoadAndParseJSONExercise.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LoadAndParseJSONExercise.ViewController"
+                  moduleName = "LoadAndParseJSONExercise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annaniukkanen/ios-exercises/demo03/LoadAndParseJSONExercise/LoadAndParseJSONExercise/ViewController.swift"
+                  timestampString = "582080775.651121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoadAndParseJSONExercise.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LoadAndParseJSONExercise.ViewController"
+                  moduleName = "LoadAndParseJSONExercise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annaniukkanen/ios-exercises/demo03/LoadAndParseJSONExercise/LoadAndParseJSONExercise/ViewController.swift"
+                  timestampString = "582080775.654817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoadAndParseJSONExercise.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LoadAndParseJSONExercise.ViewController&gt;"
+                  moduleName = "LoadAndParseJSONExercise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annaniukkanen/ios-exercises/demo03/LoadAndParseJSONExercise/LoadAndParseJSONExercise/ViewController.swift"
+                  timestampString = "582080775.658354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoadAndParseJSONExercise.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LoadAndParseJSONExercise.ViewController&gt;"
+                  moduleName = "LoadAndParseJSONExercise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annaniukkanen/ios-exercises/demo03/LoadAndParseJSONExercise/LoadAndParseJSONExercise/ViewController.swift"
+                  timestampString = "582080775.6627851"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoadAndParseJSONExercise.ViewController.__deallocating_deinit"
+                  moduleName = "LoadAndParseJSONExercise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annaniukkanen/ios-exercises/demo03/LoadAndParseJSONExercise/LoadAndParseJSONExercise/ViewController.swift"
+                  timestampString = "582080775.6663311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

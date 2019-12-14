@@ -1,0 +1,6 @@
+framework module Pods_NavigationControllerExerciseTests {
+  umbrella header "Pods-NavigationControllerExerciseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+	platform :ios, '12.0'
+
+target 'TableViewExercise' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TableViewExercise
+  pod 'Google-Mobile-Ads-SDK', '~> 7.0'
+  target 'TableViewExerciseTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TableViewExerciseUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SumCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XZL-7X-N4T">
+                                <rect key="frame" x="151" y="165" width="109" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-1a-4ph">
+                                <rect key="frame" x="151" y="215" width="109" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="numbersLabel" text="Give numbers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xy0-s1-z2q">
+                                <rect key="frame" x="128" y="113" width="155" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajN-1K-tNg">
+                                <rect key="frame" x="20" y="337" width="374" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRk-lf-OeR">
+                                <rect key="frame" x="163" y="264" width="84" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Sum"/>
+                                <connections>
+                                    <action selector="myButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xQV-pc-0sk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xy0-s1-z2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="2rZ-IC-kLw"/>
+                            <constraint firstItem="ajN-1K-tNg" firstAttribute="top" secondItem="bRk-lf-OeR" secondAttribute="bottom" constant="23" id="Afw-V2-fjh"/>
+                            <constraint firstItem="XZL-7X-N4T" firstAttribute="top" secondItem="xy0-s1-z2q" secondAttribute="bottom" constant="20" id="FqK-bc-QgC"/>
+                            <constraint firstItem="bRk-lf-OeR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="163" id="Gbs-AN-rfm"/>
+                            <constraint firstItem="xy0-s1-z2q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="WqC-ze-M4E"/>
+                            <constraint firstItem="ajN-1K-tNg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YP8-8J-Ucy"/>
+                            <constraint firstItem="bRk-lf-OeR" firstAttribute="top" secondItem="Sw2-1a-4ph" secondAttribute="bottom" constant="31" id="eZP-qE-03Y"/>
+                            <constraint firstItem="Sw2-1a-4ph" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="euK-np-cAV"/>
+                            <constraint firstItem="XZL-7X-N4T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="igS-wy-vd2"/>
+                            <constraint firstItem="Sw2-1a-4ph" firstAttribute="top" secondItem="XZL-7X-N4T" secondAttribute="bottom" constant="20" id="jJZ-ut-0g0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xy0-s1-z2q" secondAttribute="trailing" constant="131" id="k0l-ir-fGB"/>
+                            <constraint firstAttribute="trailing" secondItem="ajN-1K-tNg" secondAttribute="trailing" constant="20" id="xUw-SZ-Pg0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel1" destination="ajN-1K-tNg" id="yeq-Wq-sCc"/>
+                        <outlet property="myTextField1" destination="XZL-7X-N4T" id="5qQ-zq-fik"/>
+                        <outlet property="myTextField2" destination="Sw2-1a-4ph" id="Td2-L4-fiU"/>
+                        <outlet property="numbersLabel" destination="xy0-s1-z2q" id="ptF-Wc-VyL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC30C60D22AEC7DA0028C97A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30C60C22AEC7DA0028C97A /* AppDelegate.swift */; };
+		EC30C60F22AEC7DA0028C97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30C60E22AEC7DA0028C97A /* ViewController.swift */; };
+		EC30C61222AEC7DA0028C97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC30C61022AEC7DA0028C97A /* Main.storyboard */; };
+		EC30C61422AEC7DE0028C97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC30C61322AEC7DE0028C97A /* Assets.xcassets */; };
+		EC30C62222AEC7DE0028C97A /* SumCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30C62122AEC7DE0028C97A /* SumCalculatorTests.swift */; };
+		EC30C62D22AEC7DE0028C97A /* SumCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30C62C22AEC7DE0028C97A /* SumCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC30C61E22AEC7DE0028C97A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC30C60122AEC7DA0028C97A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC30C60822AEC7DA0028C97A;
+			remoteInfo = SumCalculator;
+		};
+		EC30C62922AEC7DE0028C97A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC30C60122AEC7DA0028C97A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC30C60822AEC7DA0028C97A;
+			remoteInfo = SumCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC30C60922AEC7DA0028C97A /* SumCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30C60C22AEC7DA0028C97A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC30C60E22AEC7DA0028C97A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC30C61122AEC7DA0028C97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC30C61322AEC7DE0028C97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC30C61822AEC7DE0028C97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC30C61D22AEC7DE0028C97A /* SumCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30C62122AEC7DE0028C97A /* SumCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumCalculatorTests.swift; sourceTree = "<group>"; };
+		EC30C62322AEC7DE0028C97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC30C62822AEC7DE0028C97A /* SumCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC30C62C22AEC7DE0028C97A /* SumCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumCalculatorUITests.swift; sourceTree = "<group>"; };
+		EC30C62E22AEC7DE0028C97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC30C60622AEC7DA0028C97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C61A22AEC7DE0028C97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C62522AEC7DE0028C97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC30C60022AEC7DA0028C97A = {
+			isa = PBXGroup;
+			children = (
+				EC30C60B22AEC7DA0028C97A /* SumCalculator */,
+				EC30C62022AEC7DE0028C97A /* SumCalculatorTests */,
+				EC30C62B22AEC7DE0028C97A /* SumCalculatorUITests */,
+				EC30C60A22AEC7DA0028C97A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC30C60A22AEC7DA0028C97A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC30C60922AEC7DA0028C97A /* SumCalculator.app */,
+				EC30C61D22AEC7DE0028C97A /* SumCalculatorTests.xctest */,
+				EC30C62822AEC7DE0028C97A /* SumCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC30C60B22AEC7DA0028C97A /* SumCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EC30C60C22AEC7DA0028C97A /* AppDelegate.swift */,
+				EC30C60E22AEC7DA0028C97A /* ViewController.swift */,
+				EC30C61022AEC7DA0028C97A /* Main.storyboard */,
+				EC30C61322AEC7DE0028C97A /* Assets.xcassets */,
+				EC30C61822AEC7DE0028C97A /* Info.plist */,
+			);
+			path = SumCalculator;
+			sourceTree = "<group>";
+		};
+		EC30C62022AEC7DE0028C97A /* SumCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC30C62122AEC7DE0028C97A /* SumCalculatorTests.swift */,
+				EC30C62322AEC7DE0028C97A /* Info.plist */,
+			);
+			path = SumCalculatorTests;
+			sourceTree = "<group>";
+		};
+		EC30C62B22AEC7DE0028C97A /* SumCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC30C62C22AEC7DE0028C97A /* SumCalculatorUITests.swift */,
+				EC30C62E22AEC7DE0028C97A /* Info.plist */,
+			);
+			path = SumCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC30C60822AEC7DA0028C97A /* SumCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30C63122AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculator" */;
+			buildPhases = (
+				EC30C60522AEC7DA0028C97A /* Sources */,
+				EC30C60622AEC7DA0028C97A /* Frameworks */,
+				EC30C60722AEC7DA0028C97A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumCalculator;
+			productName = SumCalculator;
+			productReference = EC30C60922AEC7DA0028C97A /* SumCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC30C61C22AEC7DE0028C97A /* SumCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30C63422AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculatorTests" */;
+			buildPhases = (
+				EC30C61922AEC7DE0028C97A /* Sources */,
+				EC30C61A22AEC7DE0028C97A /* Frameworks */,
+				EC30C61B22AEC7DE0028C97A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC30C61F22AEC7DE0028C97A /* PBXTargetDependency */,
+			);
+			name = SumCalculatorTests;
+			productName = SumCalculatorTests;
+			productReference = EC30C61D22AEC7DE0028C97A /* SumCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC30C62722AEC7DE0028C97A /* SumCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC30C63722AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculatorUITests" */;
+			buildPhases = (
+				EC30C62422AEC7DE0028C97A /* Sources */,
+				EC30C62522AEC7DE0028C97A /* Frameworks */,
+				EC30C62622AEC7DE0028C97A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC30C62A22AEC7DE0028C97A /* PBXTargetDependency */,
+			);
+			name = SumCalculatorUITests;
+			productName = SumCalculatorUITests;
+			productReference = EC30C62822AEC7DE0028C97A /* SumCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC30C60122AEC7DA0028C97A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Anna Niukkanen";
+				TargetAttributes = {
+					EC30C60822AEC7DA0028C97A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EC30C61C22AEC7DE0028C97A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC30C60822AEC7DA0028C97A;
+					};
+					EC30C62722AEC7DE0028C97A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EC30C60822AEC7DA0028C97A;
+					};
+				};
+			};
+			buildConfigurationList = EC30C60422AEC7DA0028C97A /* Build configuration list for PBXProject "SumCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC30C60022AEC7DA0028C97A;
+			productRefGroup = EC30C60A22AEC7DA0028C97A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC30C60822AEC7DA0028C97A /* SumCalculator */,
+				EC30C61C22AEC7DE0028C97A /* SumCalculatorTests */,
+				EC30C62722AEC7DE0028C97A /* SumCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC30C60722AEC7DA0028C97A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30C61422AEC7DE0028C97A /* Assets.xcassets in Resources */,
+				EC30C61222AEC7DA0028C97A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C61B22AEC7DE0028C97A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C62622AEC7DE0028C97A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC30C60522AEC7DA0028C97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30C60F22AEC7DA0028C97A /* ViewController.swift in Sources */,
+				EC30C60D22AEC7DA0028C97A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C61922AEC7DE0028C97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30C62222AEC7DE0028C97A /* SumCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC30C62422AEC7DE0028C97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC30C62D22AEC7DE0028C97A /* SumCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC30C61F22AEC7DE0028C97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC30C60822AEC7DA0028C97A /* SumCalculator */;
+			targetProxy = EC30C61E22AEC7DE0028C97A /* PBXContainerItemProxy */;
+		};
+		EC30C62A22AEC7DE0028C97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC30C60822AEC7DA0028C97A /* SumCalculator */;
+			targetProxy = EC30C62922AEC7DE0028C97A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC30C61022AEC7DA0028C97A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC30C61122AEC7DA0028C97A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC30C62F22AEC7DE0028C97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC30C63022AEC7DE0028C97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC30C63222AEC7DE0028C97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC30C63322AEC7DE0028C97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC30C63522AEC7DE0028C97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumCalculator.app/SumCalculator";
+			};
+			name = Debug;
+		};
+		EC30C63622AEC7DE0028C97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumCalculator.app/SumCalculator";
+			};
+			name = Release;
+		};
+		EC30C63822AEC7DE0028C97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SumCalculator;
+			};
+			name = Debug;
+		};
+		EC30C63922AEC7DE0028C97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fi.jamk.SumCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SumCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC30C60422AEC7DA0028C97A /* Build configuration list for PBXProject "SumCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30C62F22AEC7DE0028C97A /* Debug */,
+				EC30C63022AEC7DE0028C97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC30C63122AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30C63222AEC7DE0028C97A /* Debug */,
+				EC30C63322AEC7DE0028C97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC30C63422AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30C63522AEC7DE0028C97A /* Debug */,
+				EC30C63622AEC7DE0028C97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC30C63722AEC7DE0028C97A /* Build configuration list for PBXNativeTarget "SumCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC30C63822AEC7DE0028C97A /* Debug */,
+				EC30C63922AEC7DE0028C97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC30C60122AEC7DA0028C97A /* Project object */;
+}

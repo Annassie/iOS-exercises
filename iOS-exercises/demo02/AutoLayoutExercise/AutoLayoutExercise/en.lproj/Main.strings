@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Bottom left"; ObjectID = "C6Q-Ln-7jC"; */
+"C6Q-Ln-7jC.text" = "Bottom left";
+
+/* Class = "UILabel"; text = "Top right"; ObjectID = "Tja-ID-yJD"; */
+"Tja-ID-yJD.text" = "Top right";
+
+/* Class = "UILabel"; text = "Top left"; ObjectID = "Xb4-Rr-NNt"; */
+"Xb4-Rr-NNt.text" = "Top left";
+
+/* Class = "UILabel"; text = "Bottom right"; ObjectID = "YAt-oP-EcP"; */
+"YAt-oP-EcP.text" = "Bottom right";
+
+/* Class = "UILabel"; text = "Text from storyboard"; ObjectID = "cfm-A3-by3"; */
+"cfm-A3-by3.text" = "Text from storyboard";
+
+/* Class = "UILabel"; text = "IOS Programming with Swift"; ObjectID = "s0B-6v-LL6"; */
+"s0B-6v-LL6.text" = "IOS Programming with Swift";

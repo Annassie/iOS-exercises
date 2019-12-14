@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CountToAdd" representedClassName="CountToAdd" syncable="YES" codeGenerationType="class">
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NameToAdd" representedClassName="NameToAdd" syncable="YES" codeGenerationType="class">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PriceToAdd" representedClassName="PriceToAdd" syncable="YES" codeGenerationType="class">
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PriceToAdd" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="CountToAdd" positionX="-36" positionY="9" width="128" height="60"/>
+        <element name="NameToAdd" positionX="-18" positionY="27" width="128" height="60"/>
+    </elements>
+</model>

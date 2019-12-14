@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SumCalculator/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="Sw2-1a-4ph.placeholder">
+        <source>Enter #</source>
+        <target>Enter #</target>
+        <note>Class = "UITextField"; placeholder = "Enter #"; ObjectID = "Sw2-1a-4ph";</note>
+      </trans-unit>
+      <trans-unit id="XZL-7X-N4T.placeholder">
+        <source>Enter #</source>
+        <target>Enter #</target>
+        <note>Class = "UITextField"; placeholder = "Enter #"; ObjectID = "XZL-7X-N4T";</note>
+      </trans-unit>
+      <trans-unit id="bRk-lf-OeR.normalTitle">
+        <source>Sum</source>
+        <target>Sum</target>
+        <note>Class = "UIButton"; normalTitle = "Sum"; ObjectID = "bRk-lf-OeR";</note>
+      </trans-unit>
+      <trans-unit id="xy0-s1-z2q.text">
+        <source>Give numbers</source>
+        <target>Give numbers</target>
+        <note>Class = "UILabel"; text = "Give numbers"; ObjectID = "xy0-s1-z2q";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SumCalculator/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>SumCalculator</source>
+        <target>SumCalculator</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SumCalculator/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="Text from the code">
+        <source>Text from the code</source>
+        <target>Text from the code</target>
+        <note>Set UILabel text from the code</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

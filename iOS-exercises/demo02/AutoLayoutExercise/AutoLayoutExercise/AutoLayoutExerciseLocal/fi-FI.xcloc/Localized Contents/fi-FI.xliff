@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="AutoLayoutExercise/Base.lproj/Main.storyboard" source-language="en" target-language="fi-FI" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="C6Q-Ln-7jC.text">
+        <source>Bottom left</source>
+        <target>Bottom left</target>
+        <note>Class = "UILabel"; text = "Bottom left"; ObjectID = "C6Q-Ln-7jC";</note>
+      </trans-unit>
+      <trans-unit id="Tja-ID-yJD.text">
+        <source>Top right</source>
+        <target>Top right</target>
+        <note>Class = "UILabel"; text = "Top right"; ObjectID = "Tja-ID-yJD";</note>
+      </trans-unit>
+      <trans-unit id="Xb4-Rr-NNt.text">
+        <source>Top left</source>
+        <target>Top left</target>
+        <note>Class = "UILabel"; text = "Top left"; ObjectID = "Xb4-Rr-NNt";</note>
+      </trans-unit>
+      <trans-unit id="YAt-oP-EcP.text">
+        <source>Bottom right</source>
+        <target>Bottom right</target>
+        <note>Class = "UILabel"; text = "Bottom right"; ObjectID = "YAt-oP-EcP";</note>
+      </trans-unit>
+      <trans-unit id="s0B-6v-LL6.text">
+        <source>IOS Programming with Swift</source>
+        <target>IOS Programming with Swift</target>
+        <note>Class = "UILabel"; text = "IOS Programming with Swift"; ObjectID = "s0B-6v-LL6";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AutoLayoutExercise/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="fi-FI">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>AutoLayoutExercise</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AutoLayoutExercise/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="fi-FI">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="Text from the code">
+        <source>Text from storyboard</source>
+        <note>Set UILabel text from the code</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

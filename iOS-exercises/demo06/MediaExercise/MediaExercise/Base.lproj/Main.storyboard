@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MediaExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XlZ-4b-ZPV">
+                                <rect key="frame" x="20" y="134" width="374" height="294"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="startRecord" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-og-C7d">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Start recording"/>
+                                        <connections>
+                                            <action selector="startRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i5h-Vx-DIQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="stopRecord" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6d-yD-Ozc">
+                                        <rect key="frame" x="0.0" y="42" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Stop recording"/>
+                                        <connections>
+                                            <action selector="stopRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO5-Xx-86Z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="startPlay" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-Gu-Cwc">
+                                        <rect key="frame" x="0.0" y="84" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Start playing"/>
+                                        <connections>
+                                            <action selector="startPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v67-Ut-JyF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="loadImage" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ct-SJ-6qc">
+                                        <rect key="frame" x="0.0" y="126" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Load image"/>
+                                        <connections>
+                                            <action selector="loadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VVM-7T-QQ3"/>
+                                            <action selector="startPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gKw-TU-kZ8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="takePicture" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTQ-TO-Z2j">
+                                        <rect key="frame" x="0.0" y="168" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Take picture"/>
+                                        <connections>
+                                            <action selector="loadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXw-ky-eWH"/>
+                                            <action selector="startPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sBY-Se-h2d"/>
+                                            <action selector="takePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAa-aK-PbE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="playVideo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDD-2V-ITf">
+                                        <rect key="frame" x="0.0" y="210" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Play video"/>
+                                        <connections>
+                                            <action selector="playVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v1I-Ro-KoM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="recordVideo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sin-Vk-Vm2">
+                                        <rect key="frame" x="0.0" y="252" width="374" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Record video"/>
+                                        <connections>
+                                            <action selector="recordVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4b-rk-PGM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="imageTaken" translatesAutoresizingMaskIntoConstraints="NO" id="bm4-S9-vOO">
+                                <rect key="frame" x="45" y="474" width="334" height="356"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bm4-S9-vOO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="4wt-nB-jWD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XlZ-4b-ZPV" secondAttribute="trailing" constant="20" id="7kP-3V-PHu"/>
+                            <constraint firstItem="XlZ-4b-ZPV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="D21-qX-Scp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bm4-S9-vOO" secondAttribute="bottom" constant="32" id="Z8A-tR-TGF"/>
+                            <constraint firstItem="XlZ-4b-ZPV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="dx0-87-V2c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bm4-S9-vOO" secondAttribute="trailing" constant="35" id="g34-qu-rpm"/>
+                            <constraint firstItem="bm4-S9-vOO" firstAttribute="top" secondItem="XlZ-4b-ZPV" secondAttribute="bottom" constant="46" id="m1T-Fp-TW0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="bm4-S9-vOO" id="7Md-jq-2la"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+</document>

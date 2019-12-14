@@ -1,0 +1,6 @@
+framework module Pods_TableViewExercise {
+  umbrella header "Pods-TableViewExercise-umbrella.h"
+
+  export *
+  module * { export * }
+}
